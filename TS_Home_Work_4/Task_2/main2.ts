@@ -2,13 +2,13 @@
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 
 // 1 варіант
-function circleArea(circleRadius: number): number {
+function circleArea1(circleRadius: number): number {
     const result: number = 3.14 * (circleRadius * circleRadius);
     console.log(result);
     return result;
 }
 
-circleArea(12);
+circleArea1(12);
 
 // 2 варіант
 function circleArea2(circleRadius: number): number {
