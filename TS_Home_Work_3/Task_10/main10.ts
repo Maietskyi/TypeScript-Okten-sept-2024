@@ -107,7 +107,7 @@ for (let y: number = arrays.length; y > 0; y--) {
 
 // Цих 2 завдання трішки перероблю тип масиву))
 
-let arrayAny: any[] = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
+let arrayAny: (string | number)[] = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
 
 // 7. замінити кожне число кратне 3 на слово "okten"
 for (let pp: number = 0; pp < arrayAny.length; pp++) {
