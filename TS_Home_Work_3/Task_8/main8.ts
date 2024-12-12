@@ -11,5 +11,5 @@ console.log(numbers);
 let strings: string[] = ['Okten', 'school', 'Karpaty', 'Lviv', 'Home Work'];
 console.log(strings);
 
-let mix: unknown = ['Okten', '321845', true, 658, false];
+let mix: (boolean | string | number)[] = ['Okten', '321845', true, 658, false];
 console.log(mix);
