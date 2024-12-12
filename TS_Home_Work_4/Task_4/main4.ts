@@ -1,7 +1,7 @@
 // #SIdMd0hQ
 // - створити функцію яка приймає масив та виводить кожен його елемент
 
-function arraySearch (array: any): any {
+function arraySearch (array: (number | string | boolean)[]): void {
     for (const item of array){
         console.log(item);
     }
