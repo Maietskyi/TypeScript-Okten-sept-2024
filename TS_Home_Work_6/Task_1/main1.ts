@@ -10,7 +10,7 @@ let string3: string = 'javascript is cool';
 console.log(string3.length);
 
 // 2 варіант
-const arrayStrings: string[] = ['hello world', 'lorem ipsum', 'javascript is cool'];
+const arrayStrings: string[] = [string1, string2, string3];
 for (const string of arrayStrings) {
     console.log(string.length)
 }
