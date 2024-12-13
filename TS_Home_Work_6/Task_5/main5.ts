@@ -13,8 +13,7 @@ stringToArray(strin);
 
 // 2 варіант
 function stringToArray1(strin: string): string[] {
-    const splitToArray1: string[] = strin.split(' ');
-    return splitToArray1;
+    return strin.split(' ');
 }
 
 console.log(stringToArray1('Ревуть воли як ясла повні'))
