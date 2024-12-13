@@ -3,7 +3,7 @@
 
 function displayText(textLi: string, num: number): void {
     document.write('<ul>');
-    for (let i = 0; i <= num; i++) {
+    for (let i: number = 0; i <= num; i++) {
         document.write(`<li>${textLi}</li>`);
     }
     document.write('</ul>');
