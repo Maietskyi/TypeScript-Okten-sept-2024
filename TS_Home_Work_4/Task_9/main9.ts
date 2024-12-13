@@ -31,3 +31,35 @@ dataOutput([
     }
 ])
 
+
+// Класом
+
+class userClass {
+    id: string;
+    name: string;
+    age: number
+}
+
+function dataOutputs(arrays: userClass[]): void {
+    for (const users of arrays) {
+        document.write(`
+             <div>
+                <p>${users.id} ${users.name} ${users.age}</p>
+             </div>
+                    `);
+    }
+}
+
+dataOutputs([
+    {
+        id: 'maietskyi',
+        name: 'Mykhailo',
+        age: 26
+    },
+    {
+        id: 'vika',
+        name: 'Viktoria',
+        age: 20
+    }
+])
+
