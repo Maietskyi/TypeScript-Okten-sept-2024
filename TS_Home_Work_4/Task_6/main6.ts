@@ -2,7 +2,7 @@
 // - створити функцію яка створює ul з трьома елементами li та виводить його
 // через document.write. Текст li задати через аргумент всім однаковий
 
-function displayText(textLi: string): void {
+function displayText1(textLi: string): void {
     document.write(`<ul>
         <li>${textLi}</li>
         <li>${textLi}</li>
@@ -10,4 +10,4 @@ function displayText(textLi: string): void {
     </ul>`);
 }
 
-displayText('Okten school');
+displayText1('Okten school');
